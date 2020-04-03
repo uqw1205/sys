@@ -2,8 +2,11 @@
   <div id="wrapper">
     <sys-header />
     <sys-lside />
-    <div class="right-content">
-      <router-view></router-view>
+
+    <div class="app-container">
+      <div class="right-content">
+        <router-view></router-view>
+      </div>
     </div>
   </div>
 </template>
